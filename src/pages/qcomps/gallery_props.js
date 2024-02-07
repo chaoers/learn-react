@@ -53,3 +53,9 @@ export default function Gallery() {
     </div>
   );
 }
+
+export function profile({person}) {
+  return (<h2>person.name</h2>
+
+    )
+}
