@@ -3,13 +3,15 @@
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Profile from './components/profile'
-import Form from "@/pages/qcomps/stuckForm";
+import Form from "@/pages/components/updObjects";
 import FeedbackForm from "@/pages/qcomps/thankYouCrash";
+import RequestTracker from "@/pages/qcomps/shoppingCart";
+import Scoreboard from "@/pages/qcomps/updObjectsForm";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <FeedbackForm />
+        <Scoreboard />
     </div>
   )
 }
