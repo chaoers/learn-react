@@ -10,7 +10,7 @@ const initialList = [
 export default function BucketList() {
   const [myList, setMyList] = useState(initialList);
   const [yourList, setYourList] = useState(
-    initialList
+    JSON.parse(JSON.stringify(initialList))
   );
 
   function handleToggleMyList(artworkId, nextSeen) {
